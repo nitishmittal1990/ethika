@@ -24,6 +24,19 @@
 			</p>
 		</section>
 		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 foot">
+						<h6>
+							Happinezz@Work
+						</h6>
+						<a href="">Takeaways</a>
+						<a href="">Agenda</a>
+						<a href="">Speaker</a>
+						<a href="">Testimonials</a>
+					</div>
+				</div>
+			</div>
 		</footer>
 	
 		
