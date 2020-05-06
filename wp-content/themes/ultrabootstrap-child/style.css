@@ -1,0 +1,76 @@
+/*
+Theme Name: ultrabootstrap child
+Theme URI: http://phantomthemes.com/downloads/ultrabootstrap-premium-wordpress-theme/
+Author: phantomthemes
+Author URI: http://phantomthemes.com
+Description: Ultrabootstrap is a multipurpose Free WordPress Theme for bloggers & artist. It consists of Featured Slider, Featured Posts, custom background, custom color and welcome message in Homepage layout. The theme can be customized from the Theme Options of Customizer. Blog page with right-sidebar. You may download this awesome and light weight theme. More detail of theme availabe in readme.txt file. for support http://phantomthemes.com/support/ or view demo http://phantomthemes.com/view?theme=UltraBootstrap
+Template: ultrabootstrap
+Version: 1.1.5
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ultrabootstrap-child
+Tags: right-sidebar, theme-options, featured-images,rtl-language-support,grid-layout, editor-style, custom-header, threaded-comments, custom-background, custom-colors, blog, footer-widgets
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+ultrabootstrap is based on Underscores http://underscores.me/, (C) 2012-2015 phantomthemes.
+Ultrabootstrap is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+body {
+  background: #fff;
+}
+
+header .navbar-default {
+  background: #6ed0d1;
+}
+
+.custom-logo-link img {
+  width: 120px;
+}
+.logo-tag img{
+  height: 60px;
+}
+section.footers {
+  background-image: url(http://localhost:8888/ethika/wp-content/uploads/2020/05/footer-bg.png);
+  background-repeat: no-repeat;
+  background-position: center 0px;
+  background-size: 90%;
+  background-color: #9cdbb0;
+  padding: 68px 0;
+}
+section.footers > p {
+  font-size: 2em;
+  margin: 16px;
+  color: #fff;
+  line-height:36px;
+}
+
+.agenda {
+  background-image: url('http://localhost:8888/ethika/wp-content/uploads/2020/05/schedule-header-bg.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  height: 500px;
+  background-size: 100%;
+  background-color: #6ed0d1;
+}
+.agenda h1 {
+  color: #165b6b;
+  margin-top: 80px;
+  font-size: 5em;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+.agenda p {
+  font-size: 1.5em;
+  color: #fff;
+  line-height: 1.4em;
+}
+.agenda-workshop {
+  padding: 48px 0;
+}
