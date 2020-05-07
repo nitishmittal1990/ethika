@@ -26,7 +26,7 @@
 		<footer>
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-4 foot">
+					<div class="col-lg-3 foot">
 						<h6>
 							Happinezz@Work
 						</h6>
@@ -35,7 +35,34 @@
 						<a href="">Speaker</a>
 						<a href="">Testimonials</a>
 					</div>
+					<div class="col-lg-3 foot">
+						<h6>
+							Happiness Tools
+						</h6>
+						<a href="">Total Health</a>
+						<a href="">Employee Assist</a>
+						<a href="">Insurance Benefits</a>
+					</div>
+					<div class="col-lg-3 foot">
+						<h6>
+							About Us
+						</h6>
+						<a href="">Profile</a>
+						<a href="">Vision &amp; Mission</a>
+						<a href="">Dream People</a>
+					</div>
+					<div class="col-lg-3 foot">
+						<h6>
+							Contact Us
+						</h6>
+						<a href="">Our Locations</a>
+						<a href="">Feedback form</a>
+					</div>
 				</div>
+			</div>
+			<div class="container">
+				<span class="text-left">Copyright &amp; 2020 -Happinezz@work</span>
+				<a href="" class="pull-right">Privacy Policy</a>
 			</div>
 		</footer>
 	

@@ -35,6 +35,12 @@ header .navbar-default {
 .logo-tag img{
   height: 60px;
 }
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #fff;
+}
 section.footers {
   background-image: url(http://localhost:8888/ethika/wp-content/uploads/2020/05/footer-bg.png);
   background-repeat: no-repeat;
@@ -75,6 +81,21 @@ footer {
   height: 500px;
   background-size: 100%;
   background-color: #6ed0d1;
+}
+.agenda.aboutus {
+  background-image: url("https://ethikaworklife.com/wp-content/uploads/2019/12/aboutus-header-bg.png");
+  background-color: #f9afa5;
+}
+.agenda.aboutus h1 {
+  color: #8c6560;
+}
+.agenda.contactus {
+  background-image: url("https://ethikaworklife.com/wp-content/uploads/2019/12/contactus-header-bg.png");
+  background-color: #a2a9ae;
+
+}
+.agenda.contactus h1 {
+  color: #3a3f42;
 }
 .agenda h1 {
   color: #165b6b;
