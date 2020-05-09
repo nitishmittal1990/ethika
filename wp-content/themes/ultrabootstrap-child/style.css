@@ -107,9 +107,17 @@ footer {
 .agenda.takeaway {
   background-image: url("https://ethikaworklife.com/wp-content/uploads/2019/12/Take-away-header-bg-1.png");
 }
+.agenda.register {
+  background-image: url("https://ethikaworklife.com/wp-content/uploads/2019/12/registration-header-bg.png");
+  background-color: #4dabc5;
+}
+.agenda.register h1 {
+  color: #fc0;
+}
 .agenda.contactus h1 {
   color: #3a3f42;
 }
+
 .agenda h1 {
   color: #165b6b;
   margin-top: 80px;
@@ -244,4 +252,21 @@ h2 {
 }
 .agenda-workshop .faq-list > li > div ul li:before {
   display: none;
+}
+.buttom-line  {
+  margin: 36px 0;
+}
+.buttom-line h3{
+    color: #165b6b;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.buttom-line img {
+  margin-bottom: 18px;
+}
+.eachpeople {
+  margin-bottom: 36px;
+}
+.eachpeople h3 {
+  font-weight: 600;
 }

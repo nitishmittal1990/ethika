@@ -17,7 +17,7 @@ get_header(); ?>
 </section>
 <section class="agenda-workshop">
 	<div class="container">
-		<p>
+		<p class="font-18">
             After establishing a Happy workplace for ourselves, where all our employees work like CEOs, without needing any monitoring systems and reviews to get them to work, we were driven with a passion to create Happier Workplaces for other organisations too. This is how Ethika Worklife was born. At Ethika Worklife Solutions we work at the core of bringing wellbeing and happiness to Workplaces.
         </p>
 		<div class="row">
@@ -25,12 +25,12 @@ get_header(); ?>
                 <h2>
                     Our Vision
                 </h2>
-                <p>“To empower businesses to help their employees live happier and healthier lives”</p>
+                <p style="color: #11949e" class="font-16"><strong>“To empower businesses to help their employees live happier and healthier lives”</strong></p>
             </div>
             
         </div>
         <div class="row">
-            <div class="col-md-7">
+            <div class="col-md-7 font-16">
                 <p>Research finds, only 20 % of employees are happy to go to their workplace, a place where we spend 60% of our adult life. We wanted to do our bit in changing this. We set out as Happiness evangelists, relentlessly striving and working towards making Happier Employees and Workplaces.</p>
                 <p>We are headed by people who are certified Happiness Coaches helping organizations discover and implement the science of Workplace Happiness at their workplaces. We deploy Scientific Happiness framework, strategies and tools that build strong culture of Happiness at Workplaces.</p>
             </div>
@@ -38,7 +38,7 @@ get_header(); ?>
                 <img src="https://www.ethikaworklife.com/wp-content/uploads/2019/11/ta6-768x512.jpg" />
             </div>
         </div>
-        <div class="row buttom-line">
+        <div class="row buttom-line font-16">
             <h3>
                 Impacting the Bottom-Line
             </h3>
@@ -59,7 +59,7 @@ get_header(); ?>
                 <p>Talent</p>
             </div>
         </div>
-        <div class="row">
+        <div class="row font-16">
             <div class="col-md-5">
                 <img src="https://www.ethikaworklife.com/wp-content/uploads/2019/11/mission-02.jpg" />
             </div>
