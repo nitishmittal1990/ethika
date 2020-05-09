@@ -104,6 +104,9 @@ footer {
 .agenda.testi {
   background-image: url("https://ethikaworklife.com/wp-content/uploads/2019/12/testimonials-header-bg.png");
 }
+.agenda.takeaway {
+  background-image: url("https://ethikaworklife.com/wp-content/uploads/2019/12/Take-away-header-bg-1.png");
+}
 .agenda.contactus h1 {
   color: #3a3f42;
 }
@@ -142,8 +145,8 @@ footer {
   font-size: 18px;
 }
 
-.takeaway-list > li {
-  color: #6ec1e4;
+.agenda-workshop .takeaway-list > li {
+  color: #57bae4;
   background: rgba(122,195,221,.24);
   border-bottom: 1px solid #d4d4d4;
   padding: 12px;
@@ -151,18 +154,23 @@ footer {
   max-height: 48px;
   overflow: hidden;
   cursor: pointer;
+  font-size: 16px;
+  margin-left: 0;
+  font-weight: 500;
 }
-.takeaway-list > li.active {
+
+.agenda-workshop .takeaway-list > li.active {
   max-height: 500px;
   transition: 1s all ease;
 }
-.takeaway-list > li:before {
-  content:"\2023";
+.agenda-workshop .takeaway-list > li:before {
+  content:"\2023"!important;
+  color: #57bae4;
 }
-.takeaway-list > li.active > p {
+.agenda-workshop .takeaway-list > li.active > p {
   opacity: 1;
 }
-.takeaway-list > li > p {
+.agenda-workshop .takeaway-list > li > p {
   transition: 0.3s all ease;
   opacity: 0;
   color: #000;
@@ -200,4 +208,40 @@ h2 {
   margin-bottom: 2px;
   color: #7a7a7a;
   font-weight: 600;
+}
+
+.agenda-workshop .faq-list > li{
+  color: #57bae4;
+  background: #d3e3b9;
+  padding: 12px;
+  max-height: 48px;
+  overflow: hidden;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 0;
+  font-weight: 500;
+}
+.agenda-workshop .faq-list > li:nth-child(even) {
+  background: #fff;
+}
+.agenda-workshop .faq-list > li.active {
+  max-height: 500px;
+  transition: 1s all ease;
+}
+.agenda-workshop .faq-list > li:before {
+  content:"\2023"!important;
+  color: #57bae4;
+}
+.agenda-workshop .faq-list > li.active > div {
+  opacity: 1;
+}
+.agenda-workshop .faq-list > li > div {
+  transition: 0.3s all ease;
+  opacity: 0;
+  color: #000;
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+.agenda-workshop .faq-list > li > div ul li:before {
+  display: none;
 }

@@ -5,7 +5,7 @@
  */
 get_header(); ?>
 
-<section class="agenda">
+<section class="agenda takeaway">
 	<div class="container">
 		<h1>TAKE AWAYS</h1>
 		<p>
