@@ -23,6 +23,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 body {
   background: #fff;
+  color: #212529;
 }
 
 header .navbar-default {
@@ -73,7 +74,14 @@ footer {
   color: #fff;
   margin-bottom: 6px;
 }
-
+.font-18 {
+  font-size: 18px;
+  line-height: 1.5em;
+}
+.font-16 {
+  font-size: 16px;
+  line-height: 1.5em;
+}
 .agenda {
   background-image: url('http://localhost:8888/ethika/wp-content/uploads/2020/05/schedule-header-bg.png');
   background-repeat: no-repeat;
@@ -92,7 +100,9 @@ footer {
 .agenda.contactus {
   background-image: url("https://ethikaworklife.com/wp-content/uploads/2019/12/contactus-header-bg.png");
   background-color: #a2a9ae;
-
+}
+.agenda.testi {
+  background-image: url("https://ethikaworklife.com/wp-content/uploads/2019/12/testimonials-header-bg.png");
 }
 .agenda.contactus h1 {
   color: #3a3f42;
@@ -112,4 +122,82 @@ footer {
 }
 .agenda-workshop {
   padding: 48px 0;
+}
+.agenda-workshop ul > li {
+  font-size: 14px;
+  margin-left: 18px;
+  margin-bottom: 6px;
+}
+.agenda-workshop ul > li:before {
+  content:"\2714";
+  color: #83d8a6;
+  margin-right: 6px;
+}
+.agenda-workshop ul > li:nth-child(2):before {
+  content:"\2717";
+  font-size: 18px;
+}
+.agenda-workshop ul > li:nth-child(3):before {
+  content:"\272A";
+  font-size: 18px;
+}
+
+.takeaway-list > li {
+  color: #6ec1e4;
+  background: rgba(122,195,221,.24);
+  border-bottom: 1px solid #d4d4d4;
+  padding: 12px;
+  margin-bottom: 12px;
+  max-height: 48px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.takeaway-list > li.active {
+  max-height: 500px;
+  transition: 1s all ease;
+}
+.takeaway-list > li:before {
+  content:"\2023";
+}
+.takeaway-list > li.active > p {
+  opacity: 1;
+}
+.takeaway-list > li > p {
+  transition: 0.3s all ease;
+  opacity: 0;
+  color: #000;
+  margin-top: 12px;
+}
+
+h2 {
+  color: #165b6b;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.testivideo p{
+  margin-bottom: 18px;
+}
+.venue {
+  margin-top: 24px;
+}
+.venue img {
+  display: inline-block;
+  vertical-align: middle;
+  height: 120px;
+  margin-right: 10px;
+}
+.venue .v-data{
+  display: inline-block;
+  vertical-align: middle;
+}
+.v-data h5 {
+  color: #6ec1e4;
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.v-data p {
+  margin-bottom: 2px;
+  color: #7a7a7a;
+  font-weight: 600;
 }

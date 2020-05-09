@@ -15,10 +15,10 @@ get_header(); ?>
 		</p>
 	</div>
 </section>
-<section class="agenda-workshop">
+<section class="agenda-workshop font-16">
 	<div class="container">
 		<p>
-            Susheel Agarwal, the founder of Ethika Insurance Broking & Ethika Worklife Solutions, is dedicated to help organizations flourish with happy workplaces. He is a certified happiness coach.
+            <strong>Susheel Agarwal</strong>, the founder of Ethika Insurance Broking & Ethika Worklife Solutions, is dedicated to help organizations flourish with happy workplaces. He is a certified happiness coach.
         </p>
 		<div class="row">
             <div class="col-md-8">

@@ -16,16 +16,16 @@ get_header(); ?>
 </section>
 <section class="agenda-workshop">
 	<div class="container">
-		<p>We are seeking to help with you discover the key ingredients to devise and implement for the right Happiness Strategies. From discovering the Science behind Workplace Happiness to learning the road map to deploy the Happiness Strategies, know everything from the experts.</p>
+		<p class="font-18">We are seeking to help with you discover the key ingredients to devise and implement for the right Happiness Strategies. From discovering the Science behind Workplace Happiness to learning the road map to deploy the Happiness Strategies, know everything from the experts.</p>
 		<div class="row">
 			<div class="col-lg-8">
 				<h2>
 					1-day Workshop on Workplace Happiness
 				</h2>
-				<p>
-					Designed for CXOs and HR Heads
+				<p class="font-18">
+					<strong>Designed for CXOs and HR Heads</strong>
 				</p>
-				<ul class="list-unstyled">
+				<ul class="list-unstyled font-16">
 					<li>
 						08 : 00 am - 08 : 45 am - Breakfast
 					</li>
