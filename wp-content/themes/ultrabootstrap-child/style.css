@@ -131,10 +131,25 @@ footer {
   background-image: url("https://ethikaworklife.com/wp-content/uploads/2019/12/happiness-total-health-header-bg-1.png");
   background-color: #83d8a6;
 }
+.agenda.emp {
+  background-image: url("https://ethikaworklife.com/wp-content/uploads/2019/12/happiness-employee-assist-header-bg.png");
+  background-color: #83d8a6;
+}
+.agenda.insu {
+  background-image: url("https://www.ethikaworklife.com/wp-content/uploads/2019/12/partner-header-bg.png");
+  background-color: #83d8a6;
+}
+.agenda.partner {
+  background-image: url("https://ethikaworklife.com/wp-content/uploads/2019/12/partner-header-bg.png");
+  background-color: #807b8d;
+}
 .agenda.register h1 {
   color: #fc0;
 }
 .agenda.contactus h1 {
+  color: #3a3f42;
+}
+.agenda.partner h1 {
   color: #3a3f42;
 }
 
@@ -303,4 +318,102 @@ a {
 }
 #nf-field-4 {
   background: #318dde;
+}
+.totalh-obj h3{
+  color: #165b6b;
+  font-size: 24px;
+  font-weight: bold;
+}
+.right-health {
+  background: #53a4b1;
+  padding: 36px;
+  color: #fff;
+}
+.right-health h3{
+  color: #123f49;
+  font-size: 36px;
+  font-weight: bold;
+}
+#h-risk{
+  background: #1b687a;
+  border-color: transparent;
+}
+#h-risk h5 {
+  color: #53a4b1;
+}
+.hdivs {
+  padding: 24px;
+  border: 1px solid #fff;
+  min-height: 250px;
+}
+.hdivs h5 {
+  color: #123f49;
+  font-size: 24px;
+  margin: 18px 0 12px;
+  font-weight: 600;
+}
+.hdivs p {
+  margin-bottom: 0;
+}
+#h-check {
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+}
+.h-comp {
+  background: #83d8a6;
+  padding: 36px;
+  color: #fff;
+}
+.h-comp h2 + p {
+  font-size: 24px;
+  font-weight: 500;
+}
+.subcomp {
+  padding-bottom: 24px;
+  border-right: 1px solid #fff;
+}
+.subcomp img{
+  max-width: 50px;
+}
+.subcomp .subcompdet {
+  width: calc(100% - 70px);
+  display: inline-block;
+  margin-left: 12px;
+  vertical-align: top;
+}
+.subcompdet h5 {
+  font-size: 22px;
+  margin-bottom:12px;
+}
+.subcompdet p {
+  color: #165b6b;
+  font-size: 16px;
+}
+.subcompdet p span {
+  display: inline-block;
+  vertical-align: middle; 
+}
+.subcompdet p span + span {
+  margin-left: 12px;
+}
+.last .subcomp{
+  border: none;
+}
+
+.emp-assi h3{
+  color: #165b6b;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 24px 0 18px;
+  max-width: 500px;
+  line-height:1.2em;
+}
+.work-rel h5 {
+  color: #165b6b;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 12px 0;
+}
+.work-rel p {
+  font-size: 16px;
 }
