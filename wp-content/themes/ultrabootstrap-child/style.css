@@ -417,3 +417,12 @@ a {
 .work-rel p {
   font-size: 16px;
 }
+.blog {
+  background: #f2f3f4;
+}
+.blog header .navbar-default {
+  background: #6ED0D1;
+}
+.blog main {
+  margin-top: 68px;
+}

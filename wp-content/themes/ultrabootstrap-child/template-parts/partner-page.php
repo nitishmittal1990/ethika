@@ -16,11 +16,12 @@ get_header(); ?>
 <section class="agenda-workshop grp-insu">
 	<div class="container">
 		<p class="font-18">
-            Smart Brokers need smart solutions. Do you want to provide your clients something more than the traditional policies? If yes, then we have the solution for you – MySWISH, our innovative end-to-end Insurance Benefits Management Tool. Add more value to your offering, simplify your business processes, offer a host of benefits to your clients, and do more business with MySWISH.
+            We are looking at increasing our network and would like partner with like-minded companies who share our vision of enhanced workplace wellness and Happiness, and can bring more value to our tool.
         </p>
-        <h2>
-            Why Our Tool?
-        </h2>
+        <p class="font-18">
+            We would love to explore synergies with companies working in employee engagement, employee development, employee wellness., and human resource services domains. We also look forward to collaborating with channel partners and resellers for our tool.
+        </p>
+        <?php echo do_shortcode("[ninja_form id='3']") ?>
 	</div>
 </section>
 
