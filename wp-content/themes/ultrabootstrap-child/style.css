@@ -30,6 +30,7 @@ body {
 header .navbar-default {
   background: transparent;
 }
+
 #menu-main > li {
   padding: 12px 4px;
 }
@@ -42,7 +43,7 @@ header .dropdown-menu>.active>a, header .dropdown-menu>.active>a:focus, header .
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: #000;
-    background-color:transparent;
+  background-color:transparent;
 }
 .custom-logo-link img {
   width: 120px;
@@ -432,6 +433,15 @@ a {
   max-height: 770px;
 }
 
+.happy-text {
+  background: #6abf4c;
+  color: #fff;
+  padding: 5%;
+}
+.happy-text h1 {
+  margin-bottom: 24px;
+}
+
 @media only screen and (max-width : 1400px) {
   #slider_6 {
     max-height: 500px;
@@ -447,8 +457,38 @@ a {
 }
 
 @media only screen and (max-width : 767px) {
-
+  
+  header .navbar-default {
+    background: #000;
+  }
+  .agenda h1 {
+    font-size: 2em;
+  }
+  .agenda p {
+    font-size: 1.2em;
+  }
+  section.footers {
+    background-position: center bottom;
+  }
+  footer {
+    background-position: center bottom;
+  }
+  .agenda-workshop .takeaway-list > li, .agenda-workshop .faq-list > li {
+    max-height: 66px;
+  }
+  #h-check {
+    border-left-color: #fff;
+  }
+  .subcomp {
+    border: none;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 42px;
+  }
+  .h-comp {
+    padding: 12px;
+  }
 }
+
 
 @media only screen and (max-width : 480px) {
 
