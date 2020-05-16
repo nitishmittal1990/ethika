@@ -22,7 +22,7 @@ get_header(); ?>
         <div class="row contactform">
             <div class="col-lg-6">
                 <h2>GET IN TOUCH WITH US</h2>
-                <?php echo do_shortcode("[ninja_form id='1']"); ?>
+                <?php echo do_shortcode("[ninja_form id='5']"); ?>
             </div>
             <div class="col-lg-6 font-18">
                 <h2>ADDRESS</h2>
