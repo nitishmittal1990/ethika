@@ -7,7 +7,9 @@ get_header();
 ?>
 
 <section class="main">
-    <?php echo do_shortcode('[slide-anything id="6"]'); ?>
+    <div class="home-slider">
+        <?php echo do_shortcode('[slide-anything id="6"]'); ?>
+    </div>
     <section class="m-hapz">
         <div class="container-fluid">
             <div class="row">
@@ -49,7 +51,7 @@ get_header();
             <h2>Workshop Takeaways</h2>
             <div class="row">
                 <div class="col-md-4">
-                    <div class="take-each">
+                    <div class="take-each green">
                         <img src="https://www.ethikaworklife.com/wp-content/uploads/elementor/thumbs/ta1-oh2v54l6js103xzvnz1c2jezyj00zxc691cff0t9p0.jpg" />
                         <p>Know</p>
                         <p>
@@ -58,7 +60,7 @@ get_header();
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="take-each">
+                    <div class="take-each blue">
                         <img src="https://www.ethikaworklife.com/wp-content/uploads/elementor/thumbs/ta2-oh2yemewu8vbd7btkrehqw194fvr5vsael1f06lnx0.jpg" />
                         <p>Discover</p>
                         <p>
@@ -67,7 +69,7 @@ get_header();
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="take-each">
+                    <div class="take-each green">
                         <img src="https://www.ethikaworklife.com/wp-content/uploads/elementor/thumbs/ta3-oh2wko2laql0q74op92vsj6wl4yl2fybc54wr8e4ic.jpg" />
                         <p>Explore</p>
                         <p>
@@ -78,7 +80,7 @@ get_header();
             </div>
             <div class="row">
                 <div class="col-md-4">
-                    <div class="take-each">
+                    <div class="take-each blue">
                         <img src="https://www.ethikaworklife.com/wp-content/uploads/elementor/thumbs/ta4-oh2wmbaf9au31mqo3godnm8y0eupjdheka8hznybmc.jpg" />
                         <p>Learn</p>
                         <p>
@@ -87,7 +89,7 @@ get_header();
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="take-each">
+                    <div class="take-each green">
                         <img src="https://www.ethikaworklife.com/wp-content/uploads/elementor/thumbs/ta5_new-ohfot017b3dqp4pba06h6klj79rcst30lruggycztg.jpg" />
                         <p>Increase</p>
                         <p>
@@ -96,7 +98,7 @@ get_header();
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="take-each">
+                    <div class="take-each blue">
                         <img src="https://www.ethikaworklife.com/wp-content/uploads/elementor/thumbs/ta2-oh2yemewu8vbd7btkrehqw194fvr5vsael1f06lnx0.jpg" />
                         <p>Become</p>
                         <p>
@@ -121,8 +123,12 @@ get_header();
                 Hear What Our Previous attendees have to say about our Workshop
             </h3>
             <div class="row">
-                <div class="col-md-6"></div>
-                <div class="col-md-6"></div>
+                <div class="col-md-6">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/1ocGjeGl7HQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-6">
+                     <iframe width="100%" height="315" src="https://www.youtube.com/embed/1ocGjeGl7HQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
                 <div class="col-md-6"></div>
                 <div class="col-md-6"></div>
             </div>

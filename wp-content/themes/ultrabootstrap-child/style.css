@@ -455,6 +455,158 @@ a {
   margin-bottom: 24px;
 }
 
+.home-slider {
+  position:relative;
+}
+.home-slider:before{
+  content:'';
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background: rgba(160,212,143,1);
+background: -moz-linear-gradient(top, rgba(160,212,143,1) 0%, rgba(255, 255, 255, 0.18) 35%, rgba(255, 255, 255, 0.25) 68%, rgb(110, 208, 209) 100%);
+background: -webkit-linear-gradient(top, rgba(160,212,143,1) 0%, rgba(255, 255, 255, 0.18) 35%, rgba(255, 255, 255, 0.25) 68%, rgb(110, 208, 209) 100%);
+background: -o-linear-gradient(top, rgba(160,212,143,1) 0%, rgba(255, 255, 255, 0.18) 35%, rgba(255, 255, 255, 0.25) 68%, rgb(110, 208, 209) 100%);
+background: -ms-linear-gradient(top, rgba(160,212,143,1) 0%, rgba(255, 255, 255, 0.18) 35%, rgba(255, 255, 255, 0.25) 68%, rgb(110, 208, 209) 100%);
+z-index:100;
+}
+
+.work-takeaway {
+  margin-top: 24px;
+  padding: 24px 0;
+}
+.work-takeaway h2 {
+  margin-bottom: 24px;
+  position: relative;
+}
+.work-takeaway h2:after {
+     content: '';
+    width: 120px;
+    height: 4px;
+    background: rgb(110, 208, 209);
+    display: block;
+    margin-top: 14px;
+    border-radius: 4px;
+}
+.take-each{
+  margin-bottom: 28px;
+}
+.take-each p {
+  padding: 22px;
+  margin-bottom:8px;
+}
+.take-each p:first-of-type{
+  padding-bottom: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+.take-each p:last-child {
+  padding-top:0;
+  font-size: 16px;
+}
+.take-each.green {
+  background-color: #a0d48f;
+    background-image: url(https://ethikaworklife.com/wp-content/uploads/2019/11/Workshop-takeaway-green-bg.png);
+}
+.take-each.blue {
+      background-color: #6ed0d1;
+    background-image: url(https://ethikaworklife.com/wp-content/uploads/2019/11/Workshop-takeaway-blue-bg-1.png);
+}
+.attended,.attendes,.faqhome,.about-home {
+  padding: 36px 0;
+}
+.attended h3,.attendes h3,.faqhome h3,.about-home h3{
+  color: #165b6b;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.attended h3:after, .attendes h3:after,.faqhome h3:after, .about-home h3:after{
+   content: '';
+    width: 120px;
+    height: 4px;
+    background: rgb(110, 208, 209);
+    display: block;
+    margin-top: 14px;
+    border-radius: 4px;
+}
+.faqhome {
+  background-image: linear-gradient(190deg,#6abf4b 0%,#00a1a4 100%);
+}
+.faqhome ul {
+  margin-bottom: 42px;
+}
+.faqhome h3 {
+  color: #fff;
+}
+.faqhome .btn {
+    padding: 12px;
+    display: block;
+    background: transparent;
+    border: 1px solid #fff;
+}
+.faqhome .btn:hover {
+  background: #222222;
+  border-color: #222;
+}
+.about-home {
+  font-size: 16px;
+}
+.testi-slider {
+  text-align: center;
+}
+.testi-slider h5 {
+  font-size: 20px;
+}
+.testi-slider p {
+  color: #0e7274;
+  font-size: 22px;
+  margin-top: 22px;
+  margin-bottom:4px;
+}
+.testi-slider .company {
+  font-size: 14px;
+  color: #000;
+  margin-top: 2px;
+}
+
+.page-template-agenda-page header .navbar-default {
+    background: #6ed0d1;
+}
+
+.page-template-takeaway-page header .navbar-default {
+    background: #6ed0d1;
+}
+.page-template-speaker-page header .navbar-default {
+    background: #6ed0d1;
+}
+.page-template-testimonials-page header .navbar-default {
+    background: #6ed0d1;
+}
+.page-template-venue-page header .navbar-default {
+    background: #6ed0d1;
+}
+.page-template-faq-page header .navbar-default {
+    background: #6ed0d1;
+}
+.page-template-register-page header .navbar-default {
+    background: #4dabc5;
+}
+.page-template-partner-page header .navbar-default {
+    background: #807b8d;
+}
+.page-template-contactus header .navbar-default {
+  background: #a2a9ae;
+}
+.page-template-about-page header .navbar-default,.page-template-dream-page header .navbar-default {
+  background: #f9afa5;
+}
+header .navbar-default {
+  background: #83d8a6;
+}
+
+
 @media only screen and (max-width : 1400px) {
   #slider_6 {
     max-height: 500px;
@@ -471,9 +623,7 @@ a {
 
 @media only screen and (max-width : 767px) {
   
-  header .navbar-default {
-    background: #000;
-  }
+  
   .agenda h1 {
     font-size: 2em;
   }
