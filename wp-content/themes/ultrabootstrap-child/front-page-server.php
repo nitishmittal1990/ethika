@@ -261,7 +261,7 @@ get_header();
                 After establishing a Happy workplace for ourselves, 
                 where all our employees work like CEOs, without any monitoring systems and 
                 reviews to get them to work, we were driven with a passion to create Happier Workplaces for other organisations too. 
-                This is how Ethika Worklife was born. <a href="<?php get_site_url();?>ethika/about-us">(Know more)</a>
+                This is how Ethika Worklife was born. <a href="">(Know more)</a>
             </p>
         </div>
     </section>
