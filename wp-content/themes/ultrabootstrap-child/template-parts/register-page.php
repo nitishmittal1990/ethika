@@ -20,7 +20,8 @@ get_header(); ?>
         </p>
         <div class="row">
             <div class="col-lg-8">
-                <?php echo do_shortcode("[ninja_form id='2']"); ?>
+                <!-- // <?php do_shortcode('[contact-form-7 id="99" title="Register Form"]'); ?> -->
+                <?php echo do_shortcode('[contact-form-7 id="129" title="Register Form"]'); ?>
             </div>
             <div class="col-lg-4">
                 <a href="<?php echo get_home_url(); ?>/agenda">

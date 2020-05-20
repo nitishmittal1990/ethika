@@ -939,16 +939,28 @@ function cpt_slider_slides_content($post) {
 			echo "<span id='".esc_attr($slide_data[$i]['image_del'])."' onClick='remove_slide_bg_image(\"".esc_attr($slide_data[$i]['slide_no'])."\");' title='Delete the background image for this slide'>X</span>\n";
 			echo "</div>\n";
 		} else {
-			echo "<div style='background-color:#ffffff; background-size:".esc_attr($slide_image_size)."; ";
-			echo "background-repeat:".esc_attr($slide_image_repeat)."; background-color:".esc_attr($slide_image_color)."; ";
-			echo "background-position:".esc_attr($slide_image_pos).";'></div>\n";
-			echo "<span id='".esc_attr($slide_data[$i]['image_del'])."' class='sa_hidden' onClick='remove_slide_bg_image(\"".esc_attr($slide_data[$i]['slide_no'])."\");' title='Delete the background image for this slide'>X</span>\n";
-			echo "</div>\n";
+			$slide_popup_type = get_post_meta($post->ID, $slide_data[$i]['popup_type'], true);
+			$popup_video_type = get_post_meta($post->ID, $slide_data[$i]['popup_video_type'], true);
+			$popup_video_id = get_post_meta($post->ID, $slide_data[$i]['popup_video_id'], true);
+			if (($slide_image_id == "99999999") && ($slide_popup_type == "VIDEO") && ($popup_video_type == "youtube")) {
+				$youtube_thumb = "https://img.youtube.com/vi/".$popup_video_id."/hqdefault.jpg";
+				echo "<div style='background-image:url(\"".$youtube_thumb."\"); background-size:".esc_attr($slide_image_size)."; ";
+				echo "background-repeat:".esc_attr($slide_image_repeat)."; background-color:".esc_attr($slide_image_color)."; ";
+				echo "background-position:".esc_attr($slide_image_pos).";'></div>\n";
+				echo "<span id='".esc_attr($slide_data[$i]['image_del'])."' onClick='remove_slide_bg_image(\"".esc_attr($slide_data[$i]['slide_no'])."\");' title='Delete the background image for this slide'>X</span>\n";
+				echo "</div>\n";
+			} else {
+				echo "<div style='background-color:#ffffff; background-size:".esc_attr($slide_image_size)."; ";
+				echo "background-repeat:".esc_attr($slide_image_repeat)."; background-color:".esc_attr($slide_image_color)."; ";
+				echo "background-position:".esc_attr($slide_image_pos).";'></div>\n";
+				echo "<span id='".esc_attr($slide_data[$i]['image_del'])."' class='sa_hidden' onClick='remove_slide_bg_image(\"".esc_attr($slide_data[$i]['slide_no'])."\");' title='Delete the background image for this slide'>X</span>\n";
+				echo "</div>\n";
+			}
 		}
 		// slide background image - 'set image' button
 		echo "<a class='button button-secondary slide_image_add' id='slide".esc_attr($slide_data[$i]['slide_no'])."_image_add' ";
 		echo "href='".esc_attr($upload_frame_url)."' title='Set the background image for this slide'>Set Image</a>\n";
-		// slide background image - image id text field
+		// slide background image - image id hidden field
 		echo "<input type='hidden' id='".esc_attr($slide_data[$i]['image_id'])."' name='".esc_attr($slide_data[$i]['image_id'])."' value='".esc_attr($slide_image_id)."'/>\n";
 
 		// SLIDE BACKGROUND IMAGE - BACKGROUND POSITION (dropdown box)

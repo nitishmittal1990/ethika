@@ -14,7 +14,9 @@ get_header();
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-4">
-                    <img src="https://www.ethikaworklife.com/wp-content/uploads/elementor/thumbs/what-is-happinezz-work-oh53c7vamse8g6vky1bgs33vntxy5htxtmj5yb4i8g.jpg" />
+                    <div class="" id="videoHome">
+                        <img src="https://www.ethikaworklife.com/wp-content/uploads/elementor/thumbs/what-is-happinezz-work-oh53c7vamse8g6vky1bgs33vntxy5htxtmj5yb4i8g.jpg" id="homesec2Img"/>
+                    </div>
                 </div>
                 <div class="col-md-8 happy-text">
                     <h1>
@@ -124,13 +126,37 @@ get_header();
             </h3>
             <div class="row">
                 <div class="col-md-6">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/1ocGjeGl7HQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div id="vid1" class="vidwrap">
+                        <img src='https://new.ethika.co.in/wp-content/uploads/2020/05/vid1.png' />
+                        
+                    </div>
                 </div>
                 <div class="col-md-6">
-                     <iframe width="100%" height="315" src="https://www.youtube.com/embed/1ocGjeGl7HQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div id="vid2" class="vidwrap">
+                        <img src='https://new.ethika.co.in/wp-content/uploads/2020/05/vid2-min.png' />
+                        
+                    </div>
                 </div>
-                <div class="col-md-6"></div>
-                <div class="col-md-6"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div id="vid3" class="vidwrap">
+                        <img src='https://new.ethika.co.in/wp-content/uploads/2020/05/vid3.png' />
+                        
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div id="vid4" class="vidwrap">
+                        <img src='https://new.ethika.co.in/wp-content/uploads/2020/05/vid4.png' />
+                        
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div id="vid5" class="vidwrap">
+                        <img src='https://new.ethika.co.in/wp-content/uploads/2020/05/vid5.png' />
+                        
+                    </div>
+                </div>
             </div>
         </div>
     </section>

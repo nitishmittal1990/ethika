@@ -656,6 +656,17 @@ background: transparent;
   border: 1px solid #fff;
 }
 
+#homesec2Img {
+  cursor: pointer;
+}
+
+.vidwrap {
+  margin-bottom: 18px;
+  cursor: pointer;
+}
+.vidwrap img {
+  width: 100%;
+}
 
 @media only screen and (max-width : 1400px) {
   #slider_6 {
@@ -675,8 +686,35 @@ background: transparent;
 }
 
 @media only screen and (max-width : 767px) {
-  
-  
+  .slider-c {
+    bottom: 20px;
+  }
+  .slider-c p {
+    color: #fff;
+    font-size: 1.2em;
+    line-height:1.1;
+}
+.slider-c p > span {
+    display: block;
+    font-weight: bold;
+    font-size: 1em;
+}
+.slider-c p.subhead {
+  display: none
+}
+.slider-c a {
+  display: none;
+}
+  .c-list {
+    font-size: 2em;
+  }
+  .c-list p {
+    margin-bottom: 6px;
+  }
+  .c-list .text-center {
+    margin-bottom: 28px;
+    border: none!important;
+  }
   .agenda h1 {
     font-size: 2em;
   }

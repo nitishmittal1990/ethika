@@ -21,7 +21,9 @@ get_header(); ?>
         <p class="font-18">
             We would love to explore synergies with companies working in employee engagement, employee development, employee wellness., and human resource services domains. We also look forward to collaborating with channel partners and resellers for our tool.
         </p>
-        <?php echo do_shortcode("[ninja_form id='3']") ?>
+        <?php  do_shortcode('[contact-form-7 id="98" title="Partner Form"]') ?>
+        <?php echo do_shortcode('[contact-form-7 id="128" title="Partner Form"]') ?>
+        
 	</div>
 </section>
 

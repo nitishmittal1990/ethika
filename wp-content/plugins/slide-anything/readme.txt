@@ -335,6 +335,9 @@ Adding a SLIDE ANYTHING slider using the WordPress 5.0 'Block Editor' is pretty 
 = 2.3.13 =
 * Minor bug fix: PHP 'Undefined Index' warnings were sometimes displayed after upgrading to Slide Anything PRO (and the slider was created using the Slide Anything FREE plugin)
 
+= 2.3.14 =
+* YouTube popups now set the slide background to the YouTube thumbnail by default
+
 == Upgrade Notice ==
 
 = 1.0 =
@@ -572,3 +575,6 @@ Adding a SLIDE ANYTHING slider using the WordPress 5.0 'Block Editor' is pretty 
 
 = 2.3.13 =
 * Minor bug fix: PHP 'Undefined Index' warnings were sometimes displayed after upgrading to Slide Anything PRO (and the slider was created using the Slide Anything FREE plugin)
+
+= 2.3.14 =
+* YouTube popups now set the slide background to the YouTube thumbnail by default

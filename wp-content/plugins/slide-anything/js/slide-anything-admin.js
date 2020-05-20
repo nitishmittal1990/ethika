@@ -1093,6 +1093,26 @@ function update_popup_video(slide_no) {
 		}
 	}
 	if (video_type == 'youtube') {
+		// ##### SET SLIDE BACKGROUND IMAGE TO YOUTUBE THUMB IMAGE - 14 MAY 2020 - START #####
+		// Get the YouTube video thumbnail image
+		var youtube_thumb = "https://img.youtube.com/vi/" + valid_video_id + "/hqdefault.jpg";
+		// Set the "Use Popup Image as Slide Background" dropdown to "No"
+		var popup_bg_dropdown = "#sa_slide" + slide_no + "_popup_background";
+		jQuery(popup_bg_dropdown).val('no');
+		// Set the slide background "Set Image" button to be visible
+		var set_image_button = "#slide" + slide_no + "_image_add";
+		jQuery(set_image_button).css("display", "inline-block");
+		// Set slide background IMAGE ID to 99999999 (this value indicates the YouTube thumb must be used) 
+		var slide_image_id = "#sa_slide" + slide_no + "_image_id";
+		jQuery(slide_image_id).val(99999999);
+		// Set the slide background "Preview Image" DIV background image to the YouTube Thumbnail
+		var slide_imagebg_popup = "#slide" + slide_no + "_imagebg_popup";
+		var slide_thumb = "#slide" + slide_no + "_thumb";
+		jQuery(slide_thumb + " > div").css("background-image", "url('" + youtube_thumb + "')");
+		jQuery(slide_imagebg_popup).css("display", "none");
+		jQuery(slide_thumb).css("display", "block");
+		// ##### SET SLIDE BACKGROUND IMAGE TO YOUTUBE THUMB IMAGE - 14 MAY 2020 - END #####
+		
 	 	// clear video url input field
 		document.getElementById("sa_slide" + slide_no + "_video_url").value = '';
 		// update hidden video id and video type fields

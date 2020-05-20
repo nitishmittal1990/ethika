@@ -546,6 +546,14 @@ function slide_anything_shortcode($atts) {
 					if (($slide_data["slide".$i."_popup_background"] != 'no') && ($slide_data["slide".$i."_popup_image"] != '')) {
 						$slide_image_src = wp_get_attachment_image_src($slide_data["slide".$i."_popup_imageid"], $slide_data["slide".$i."_popup_background"]);
 					}
+				} elseif (($sa_pro_version) && ($slide_data["slide".$i."_popup_type"] == 'VIDEO')) {
+					if ($slide_data["slide".$i."_popup_video_type"] == "youtube") {
+						if ($slide_data["slide".$i."_image_id"] == '99999999') {
+							$slide_image_src = array();
+							$popup_video_id = $slide_data["slide".$i."_popup_video_id"];
+							$slide_image_src[0] = "https://img.youtube.com/vi/".$popup_video_id."/hqdefault.jpg";
+						}
+					}
 				}
 				$slide_image_size = $slide_data["slide".$i."_image_size"];
 				$slide_image_pos = $slide_data["slide".$i."_image_pos"];
