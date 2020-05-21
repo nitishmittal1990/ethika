@@ -19,7 +19,7 @@ get_header(); ?>
 		<div class="row">
             <div class="col-md-6">
                 <div class="venue">
-                    <img src="https://www.ethikaworklife.com/wp-content/uploads/2019/11/Hyderabad.png" />
+                    <img src="<?php echo get_site_url(); ?>/wp-content/uploads/2020/05/Hyderabad.png" />
                     <div class="v-data font-16">
                         <h5>Hyderabad</h5>
                         <p>24<sup>th</sup> Jan 2020</p>
@@ -33,7 +33,7 @@ get_header(); ?>
             </div>
             <div class="col-md-6">
                 <div class="venue">
-                    <img src="https://www.ethikaworklife.com/wp-content/uploads/2019/11/Mumbai.png" />
+                    <img src="<?php echo get_site_url(); ?>/wp-content/uploads/2020/05/Mumbai.png" />
                     <div class="v-data font-16">
                         <h5>Mumbai</h5>
                         <p>10<sup>th</sup> Jan 2020</p>
@@ -47,7 +47,7 @@ get_header(); ?>
             </div>
             <div class="col-md-6">
                 <div class="venue">
-                    <img src="https://www.ethikaworklife.com/wp-content/uploads/2019/11/Banglore.png" />
+                    <img src="<?php echo get_site_url(); ?>/wp-content/uploads/2020/05/Banglore.png" />
                     <div class="v-data font-16">
                         <h5>Bengaluru</h5>
                         <p>17<sup>th</sup> Jan 2020</p>

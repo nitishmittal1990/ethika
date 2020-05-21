@@ -37,12 +37,12 @@ get_header(); ?>
                 <p>She strongly believes that we should derive a sense of meaning and purpose from what we do, And our work should contribute to a larger cause – this, Sameena realised was her Calling… driving her to work passionately towards transforming workplaces, where employees thrive and be Happy at work.</p>
             </div>
             <div class="col-md-4">
-                <img src="https://www.ethikaworklife.com/wp-content/uploads/2019/11/sameena-1.jpg" />
+                <img src="<?php echo get_site_url(); ?>/wp-content/uploads/2020/05/sameena-1.jpg" />
             </div>
         </div>
         <div class="row eachpeople">
             <div class="col-md-4">
-                <img src="https://www.ethikaworklife.com/wp-content/uploads/2019/11/akash-01.jpg" />
+                <img src="<?php echo get_site_url(); ?>/wp-content/uploads/2020/05/akash-01.jpg" />
             </div>
             <div class="col-md-8 font-16">
                 <h3>
@@ -62,7 +62,7 @@ get_header(); ?>
                 <p>Jaswanth is a senior finance professional with 8+ years of experience in Finance, Accounts, Corporate & Taxation ( FACTS). With his experience in Various industries and various levels of organizations, Jaswanth truly brings an exposure and financials expertise across various cultures to the table.</p>
             </div>
             <div class="col-md-4">
-                <img src="https://www.ethikaworklife.com/wp-content/uploads/elementor/thumbs/Jaswanth-Narayana%E2%80%8B2-ohpij6frudek6a0sys54p5f0drn6qfzkzf31zu6v24.jpg" />
+                <img src="<?php echo get_site_url(); ?>/wp-content/uploads/2020/05/Jaswanth-Narayana_2-ohpij6frudek6a0sys54p5f0drn6qfzkzf31zu6v24.jpg" />
             </div>
             
         </div>

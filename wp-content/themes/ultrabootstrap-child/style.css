@@ -59,7 +59,7 @@ header .dropdown-menu>.active>a, header .dropdown-menu>.active>a:focus, header .
   color: #fff;
 }
 section.footers {
-  background-image: url(http://localhost:8888/ethika/wp-content/uploads/2020/05/footer-bg.png);
+  background-image: url('https://new.ethika.co.in/wp-content/uploads/2020/05/footer-bg.png');
   background-repeat: no-repeat;
   background-position: center 0px;
   background-size: 90%;
@@ -73,7 +73,7 @@ section.footers > p {
   line-height:36px;
 }
 footer {
-  background-image: url('http://localhost:8888/ethika/wp-content/uploads/2020/05/Footer-Image-1.png');
+  background-image: url('https://new.ethika.co.in/wp-content/uploads/2020/05/Footer-Image-1.png');
   background-repeat: no-repeat;
   background-position: center 12px;
   background-size: 100%;
@@ -116,7 +116,7 @@ footer a,footer a:visited {
   border-left: 1px dashed #000; 
 }
 .agenda {
-  background-image: url('http://localhost:8888/ethika/wp-content/uploads/2020/05/schedule-header-bg.png');
+  background-image: url('https://new.ethika.co.in/wp-content/uploads/2020/05/schedule-header-bg.png');
   background-repeat: no-repeat;
   background-position: center bottom;
   height: 500px;
@@ -125,40 +125,40 @@ footer a,footer a:visited {
   padding-top: 55px;
 }
 .agenda.aboutus {
-  background-image: url("https://ethikaworklife.com/wp-content/uploads/2019/12/aboutus-header-bg.png");
+  background-image: url("https://new.ethika.co.in/wp-content/uploads/2020/05/aboutus-header-bg.png");
   background-color: #f9afa5;
 }
 .agenda.aboutus h1 {
   color: #8c6560;
 }
 .agenda.contactus {
-  background-image: url("https://ethikaworklife.com/wp-content/uploads/2019/12/contactus-header-bg.png");
+  background-image: url("https://new.ethika.co.in/wp-content/uploads/2020/05/contactus-header-bg.png");
   background-color: #a2a9ae;
 }
 .agenda.testi {
-  background-image: url("https://ethikaworklife.com/wp-content/uploads/2019/12/testimonials-header-bg.png");
+  background-image: url("https://new.ethika.co.in/wp-content/uploads/2020/05/testimonials-header-bg.png");
 }
 .agenda.takeaway {
-  background-image: url("https://ethikaworklife.com/wp-content/uploads/2019/12/Take-away-header-bg-1.png");
+  background-image: url("https://new.ethika.co.in/wp-content/uploads/2020/05/Take-away-header-bg-1.png");
 }
 .agenda.register {
-  background-image: url("https://ethikaworklife.com/wp-content/uploads/2019/12/registration-header-bg.png");
+  background-image: url("https://new.ethika.co.in/wp-content/uploads/2020/05/registration-header-bg.png");
   background-color: #4dabc5;
 }
 .agenda.totalhealth {
-  background-image: url("https://ethikaworklife.com/wp-content/uploads/2019/12/happiness-total-health-header-bg-1.png");
+  background-image: url("https://new.ethika.co.in/wp-content/uploads/2020/05/happiness-total-health-header-bg-1.png");
   background-color: #83d8a6;
 }
 .agenda.emp {
-  background-image: url("https://ethikaworklife.com/wp-content/uploads/2019/12/happiness-employee-assist-header-bg.png");
+  background-image: url("https://new.ethika.co.in/wp-content/uploads/2020/05/happiness-employee-assist-header-bg.png");
   background-color: #83d8a6;
 }
 .agenda.insu {
-  background-image: url("https://www.ethikaworklife.com/wp-content/uploads/2019/12/partner-header-bg.png");
+  background-image: url("https://new.ethika.co.in/wp-content/uploads/2020/05/partner-header-bg.png");
   background-color: #83d8a6;
 }
 .agenda.partner {
-  background-image: url("https://ethikaworklife.com/wp-content/uploads/2019/12/partner-header-bg.png");
+  background-image: url("https://new.ethika.co.in/wp-content/uploads/2020/05/partner-header-bg.png");
   background-color: #807b8d;
 }
 .agenda.register h1 {
@@ -454,7 +454,15 @@ a {
 .happy-text {
   background: #6abf4c;
   color: #fff;
-  padding: 5%;
+  padding: 3%;
+}
+#videoHome {
+    margin: 0 -12px;
+    padding: 0;
+}
+#videoHome img{
+     width: 100%;
+    height: 100%;
 }
 .happy-text h1 {
   margin-bottom: 24px;
@@ -514,11 +522,11 @@ background: -ms-linear-gradient(top, rgba(160,212,143,1) 0%, rgba(255, 255, 255,
 }
 .take-each.green {
   background-color: #a0d48f;
-    background-image: url(https://ethikaworklife.com/wp-content/uploads/2019/11/Workshop-takeaway-green-bg.png);
+    background-image: url('https://new.ethika.co.in/wp-content/uploads/2020/05/Workshop-takeaway-green-bg.png');
 }
 .take-each.blue {
       background-color: #6ed0d1;
-    background-image: url(https://ethikaworklife.com/wp-content/uploads/2019/11/Workshop-takeaway-blue-bg-1.png);
+    background-image: url('https://new.ethika.co.in/wp-content/uploads/2020/05/Workshop-takeaway-blue-bg-1.png');
 }
 .attended,.attendes,.faqhome,.about-home {
   padding: 36px 0;
@@ -686,6 +694,9 @@ background: transparent;
 }
 
 @media only screen and (max-width : 767px) {
+  .logo-tag img {
+    height: 36px;
+  }
   .slider-c {
     bottom: 20px;
   }

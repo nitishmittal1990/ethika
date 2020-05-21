@@ -35,9 +35,9 @@
 				      	<div class="logo-tag">
 				      		
 				      			
-				      			<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-                      <img src="https://www.ethikaworklife.com/wp-content/uploads/2019/11/ethika-worklife-logo@2x-1.png"/>
-                    </a>                     
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+								<img src="<?php get_site_url(); ?>/wp-content/uploads/2020/05/ethika-worklife-logo@2x-1.png"/>
+							</a>                     
       						
       					</div>
 				    </div>

@@ -35,7 +35,7 @@ get_header(); ?>
                 <p>We are headed by people who are certified Happiness Coaches helping organizations discover and implement the science of Workplace Happiness at their workplaces. We deploy Scientific Happiness framework, strategies and tools that build strong culture of Happiness at Workplaces.</p>
             </div>
             <div class="col-md-5">
-                <img src="https://www.ethikaworklife.com/wp-content/uploads/2019/11/ta6-768x512.jpg" />
+                <img src="<?php echo get_site_url(); ?>/wp-content/uploads/2020/05/ta6-768x512-1.jpg" />
             </div>
         </div>
         <div class="row buttom-line font-16">
@@ -43,25 +43,25 @@ get_header(); ?>
                 Impacting the Bottom-Line
             </h3>
             <div class="col-md-3 text-center">
-                <img src="https://www.ethikaworklife.com/wp-content/uploads/2019/11/happy-employees-01.png" />
+                <img src="<?php echo get_site_url(); ?>/wp-content/uploads/2020/05/happy-employees-01.png" />
                 <p>Happy Employees &amp; Happy Business</p>
             </div>
             <div class="col-md-3 text-center">
-                <img src="https://www.ethikaworklife.com/wp-content/uploads/2019/11/productivity-01.png" />
+                <img src="<?php echo get_site_url(); ?>/wp-content/uploads/2020/05/productivity-01.png" />
                 <p>Improved Productivity</p>
             </div>
             <div class="col-md-3 text-center">
-                <img src="https://www.ethikaworklife.com/wp-content/uploads/2019/11/enhanced-work-01.png" />
+                <img src="<?php echo get_site_url(); ?>/wp-content/uploads/2020/05/enhanced-work-01.png" />
                 <p>Enhanced Work Culture Retained</p>
             </div>
             <div class="col-md-3 text-center">
-                <img src="https://www.ethikaworklife.com/wp-content/uploads/2019/11/talent-01.png" />
+                <img src="<?php echo get_site_url(); ?>/wp-content/uploads/2020/05/talent-01.png" />
                 <p>Talent</p>
             </div>
         </div>
         <div class="row font-16">
             <div class="col-md-5">
-                <img src="https://www.ethikaworklife.com/wp-content/uploads/2019/11/mission-02.jpg" />
+                <img src="<?php echo get_site_url(); ?>/wp-content/uploads/2020/05/mission-02.jpg" />
             </div>
             <div class="col-md-7">
                 <p>We work with Excellence as our goal, we continuously strive for excellence in our people, in our product, and in the level of service we provide to our clients. We work with Integrity-We will do the right thing always. We are fuelled with Passion, passion for what we are doing. We have a deep-seated and intense belief in what we are doing – not only the good we are trying to achieve in workplaces but also the way in which we are doing it.</p>

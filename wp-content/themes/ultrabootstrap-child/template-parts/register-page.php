@@ -25,9 +25,9 @@ get_header(); ?>
             </div>
             <div class="col-lg-4">
                 <a href="<?php echo get_home_url(); ?>/agenda">
-                    <img src="https://www.ethikaworklife.com/wp-content/uploads/2020/01/agendaaa1.png" />
+                    <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2020/05/agendaaa1.png" />
                 </a>
-                <img src="https://www.ethikaworklife.com/wp-content/uploads/2020/01/registermow_agenda.png" />
+                <img src="<?php echo get_home_url(); ?>/wp-content/uploads/2020/05/registermow_agenda.png" />
             </div>
         </div>
 	</div>

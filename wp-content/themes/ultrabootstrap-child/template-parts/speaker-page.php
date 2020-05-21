@@ -25,7 +25,7 @@ get_header(); ?>
                 After gathering extensive knowledge by interacting with various leaders of happy & not so happy organizations, attending number of happiness and leadership programs, coupled with his own experiences, he has established a happy workplace for own firm. He has now turned into a transformation expert and passionate coach, educating corporate leaders by leveraging his experienced strategies and framework enabling them to have a happier workplace.
             </div>
             <div class="col-md-4">
-                <img src="https://www.ethikaworklife.com/wp-content/uploads/elementor/thumbs/image-speaker-oha6nmukabn8jpukqf4rf3orizqh6o17cijcumf4c8.jpg" />
+                <img src="<?php echo get_site_url(); ?>/wp-content/uploads/2020/05/image-speaker-oha6nmukabn8jpukqf4rf3orizqh6o17cijcumf4c8.jpg" />
             </div>
         </div>
 	</div>

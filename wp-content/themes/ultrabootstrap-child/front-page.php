@@ -15,7 +15,8 @@ get_header();
             <div class="row">
                 <div class="col-md-4">
                     <div class="" id="videoHome">
-                        <img src="https://www.ethikaworklife.com/wp-content/uploads/elementor/thumbs/what-is-happinezz-work-oh53c7vamse8g6vky1bgs33vntxy5htxtmj5yb4i8g.jpg" id="homesec2Img"/>
+                        <!-- <img src="https://www.ethikaworklife.com/wp-content/uploads/2020/05/what-is-happinezz-work-oh53c7vamse8g6vky1bgs33vntxy5htxtmj5yb4i8g.jpg" id="homesec2Img"/> -->
+                        <img src="<?php echo get_site_url(); ?>/wp-content/uploads/2020/05/what-is-happinezz-work-oh53c7vamse8g6vky1bgs33vntxy5htxtmj5yb4i8g.jpg" id="homesec2Img"/>
                     </div>
                 </div>
                 <div class="col-md-8 happy-text">
@@ -54,7 +55,9 @@ get_header();
             <div class="row">
                 <div class="col-md-4">
                     <div class="take-each green">
-                        <img src="https://www.ethikaworklife.com/wp-content/uploads/elementor/thumbs/ta1-oh2v54l6js103xzvnz1c2jezyj00zxc691cff0t9p0.jpg" />
+                        <!-- <img src="https://www.ethikaworklife.com/wp-content/uploads/2020/05/ta1-oh2v54l6js103xzvnz1c2jezyj00zxc691cff0t9p0.jpg" /> 
+                        -->
+                        <img src="<?php echo get_site_url(); ?>/wp-content/uploads/2020/05/ta1-oh2v54l6js103xzvnz1c2jezyj00zxc691cff0t9p0.jpg" />
                         <p>Know</p>
                         <p>
                             The Power of a Happy Workplace, find out how happy employees impact your business. You don't need deep pockets to make your organisation a Happy Workplace
@@ -63,7 +66,8 @@ get_header();
                 </div>
                 <div class="col-md-4">
                     <div class="take-each blue">
-                        <img src="https://www.ethikaworklife.com/wp-content/uploads/elementor/thumbs/ta2-oh2yemewu8vbd7btkrehqw194fvr5vsael1f06lnx0.jpg" />
+                        <img src="<?php echo get_site_url(); ?>/wp-content/uploads/2020/05/ta2-oh2yemewu8vbd7btkrehqw194fvr5vsael1f06lnx0.jpg" />
+                        <!-- <img src="https://www.ethikaworklife.com/wp-content/uploads/2020/05/ta2-oh2yemewu8vbd7btkrehqw194fvr5vsael1f06lnx0.jpg" /> -->
                         <p>Discover</p>
                         <p>
                             the Science behind Workplace Happiness, the science to make your employees happy is entirely different from the science to manage their stress and anxiety.
@@ -72,7 +76,8 @@ get_header();
                 </div>
                 <div class="col-md-4">
                     <div class="take-each green">
-                        <img src="https://www.ethikaworklife.com/wp-content/uploads/elementor/thumbs/ta3-oh2wko2laql0q74op92vsj6wl4yl2fybc54wr8e4ic.jpg" />
+                        <img src="<?php echo get_site_url(); ?>/wp-content/uploads/2020/05/ta3-oh2wko2laql0q74op92vsj6wl4yl2fybc54wr8e4ic.jpg" />
+                        <!-- <img src="https://www.ethikaworklife.com/wp-content/uploads/2020/05/ta3-oh2wko2laql0q74op92vsj6wl4yl2fybc54wr8e4ic.jpg" /> -->
                         <p>Explore</p>
                         <p>
                             The Happiness Framework - build your own Happiness strategy, aligned to your organisation's dynamics. Derive the key ingredients for a happy workplace.
@@ -83,7 +88,8 @@ get_header();
             <div class="row">
                 <div class="col-md-4">
                     <div class="take-each blue">
-                        <img src="https://www.ethikaworklife.com/wp-content/uploads/elementor/thumbs/ta4-oh2wmbaf9au31mqo3godnm8y0eupjdheka8hznybmc.jpg" />
+                        <img src="<?php echo get_site_url(); ?>/wp-content/uploads/2020/05/ta4-oh2wmbaf9au31mqo3godnm8y0eupjdheka8hznybmc.jpg" />
+                        <!-- <img src="https://www.ethikaworklife.com/wp-content/uploads/2020/05/ta4-oh2wmbaf9au31mqo3godnm8y0eupjdheka8hznybmc.jpg" /> -->
                         <p>Learn</p>
                         <p>
                             The proven Step-by-step Road-map for launching your Happiness Strategies customized to your demography and dynamics.
@@ -92,7 +98,8 @@ get_header();
                 </div>
                 <div class="col-md-4">
                     <div class="take-each green">
-                        <img src="https://www.ethikaworklife.com/wp-content/uploads/elementor/thumbs/ta5_new-ohfot017b3dqp4pba06h6klj79rcst30lruggycztg.jpg" />
+                        <img src="<?php echo get_site_url(); ?>/wp-content/uploads/2020/05/ta5_new-ohfot017b3dqp4pba06h6klj79rcst30lruggycztg.jpg" />
+                        <!-- <img src="https://www.ethikaworklife.com/wp-content/uploads/2020/05/ta5_new-ohfot017b3dqp4pba06h6klj79rcst30lruggycztg.jpg" /> -->
                         <p>Increase</p>
                         <p>
                            Your Personal Happiness Index, We empower you to structure your own efforts in the direction that makes you a happier person.
@@ -101,7 +108,8 @@ get_header();
                 </div>
                 <div class="col-md-4">
                     <div class="take-each blue">
-                        <img src="https://www.ethikaworklife.com/wp-content/uploads/elementor/thumbs/ta2-oh2yemewu8vbd7btkrehqw194fvr5vsael1f06lnx0.jpg" />
+                        <img src="<?php echo get_site_url(); ?>/wp-content/uploads/2020/05/ta2-oh2yemewu8vbd7btkrehqw194fvr5vsael1f06lnx0.jpg" />
+                        <!-- <img src="https://www.ethikaworklife.com/wp-content/uploads/2020/05/ta2-oh2yemewu8vbd7btkrehqw194fvr5vsael1f06lnx0.jpg" /> -->
                         <p>Become</p>
                         <p>
                             a Happiness Consultant, Surge your career by becoming a Happiness Consultant yourself, spread Happiness to many organisations.

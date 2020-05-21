@@ -62,7 +62,7 @@ get_header(); ?>
 				</ul>
 			</div>
 			<div class="col-lg-4">
-				<img src="http://localhost:8888/ethika/wp-content/uploads/2020/05/employee_benefits1..png" alt=""/>
+				<img src="<?php echo get_site_url(); ?>/wp-content/uploads/2020/05/employee_benefits1.png" alt=""/>
 			</div>
 		</div>
 	</div>
