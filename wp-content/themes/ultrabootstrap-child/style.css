@@ -676,6 +676,227 @@ background: transparent;
   width: 100%;
 }
 
+/* Raj Common */
+ .banner-heading{
+  font-size: 48px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0px !important;
+  }
+  .banner-top-padding{    padding-top: 94px;
+  }
+    .commonlist{    padding: 48px 0;
+  } 
+.commonlist ul>li:before {
+    content: "\2714";
+    color: #83d8a6;
+    margin-right: 6px;
+}
+.commonlist ul>li:nth-child(2):before {
+    content: "\2717";
+    font-size: 18px;
+}
+.commonlist ul>li:nth-child(3):before {
+    content: "\272A";
+    font-size: 18px;
+}
+.commonlist ul>li {
+    font-size: 17px;
+    margin-left: 18px;
+    margin-bottom: 6px;
+}
+
+/* total health Rajkumar*/ 
+
+.hb2{
+  color: #53a4b1;font-size:18px;font-weight:bold;
+  }
+  .banner-heading{
+  font-size: 48px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0px !important;
+  }
+  .banner-top-padding{    padding-top: 94px;
+  }
+  .health-test td{    border: none;
+  text-align: left;
+  color: #165b6b;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 8px;
+  font-size: 16px;
+  }
+  .imagehead{    letter-spacing: 0px;
+  text-transform: capitalize;
+  font-weight: bold;
+  border: none;
+  color: teal;
+  font-size: 15px;
+  }
+  .health-report-text,.health-report-text li {
+  color: #231f20;
+  font-size: 16px;
+  line-height: 1.8em;
+  letter-spacing: .6px;
+  text-align: justify;
+  font-weight: 500;
+  }
+  .pdftext{color: #3e445e;
+  }
+  .whitec{color: #fff !important;
+  }
+  .doctorp{
+  color: #231f20;
+  line-height: 24px;
+  letter-spacing: .6px;
+  font-weight: 500;
+  text-align: justify;
+  }
+  .padd20{ padding:20px 0px;
+  }
+  .padd30{ padding:30px 0px;
+  }
+  .padd40{ padding:40px 0px;
+  }
+  .hreports{
+  }.f24{  font-size: 24px !important;
+  }
+  .hreports h5 {
+  color: #123f49;
+  font-size: 24px;
+  margin: 18px 0 12px;
+  font-weight: 600;
+  }
+  .marginb{ margin-bottom:20px;} 
+  .imageh{ height:160px;
+  }
+  .headsc{ padding-top:50px; text-align:left;
+  }
+  .footers{background-color: #f7ce86;
+  }
+  .footers:after{    background-image: url(https://new.ethika.co.in/wp-content/themes/ultrabootstrap-child/images/footer-bg.png);
+  background-position: 30px 0;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  opacity: 1;
+  transition: background .3s,border-radius .3s,opacity .3s;
+  }
+  .formatp{    color: #231f20;
+  line-height: 28px;
+  /* letter-spacing: 0.6px; */
+  font-size: 17px;
+  font-weight: 500; 
+  }	.healthbold{ color: #83d8a6; font-size: 24px; font-weight: bold;
+  }
+  .hcolor1{color: #53a4b1;
+  } 
+  .hcolor2{color: #83d8a6;
+  } 
+  .commonlist{    padding: 48px 0;
+  } 
+.commonlist ul>li:before {
+    content: "\2714";
+    color: #83d8a6;
+    margin-right: 6px;
+}
+.commonlist ul>li:nth-child(2):before {
+    content: "\2717";
+    font-size: 18px;
+}
+.commonlist ul>li:nth-child(3):before {
+    content: "\272A";
+    font-size: 18px;
+}
+.commonlist ul>li {
+    font-size: 17px;
+    margin-left: 18px;
+    margin-bottom: 6px;
+}
+/* Employee assist */
+
+.paddtop{     padding-top: 20px !important;
+  }
+  .counsellorp {font-size: 16px;
+  line-height: 26px;
+  }
+  .employeeasst{ background-color: #fff;    padding: 70px 0px;
+  }.employeeasst ul li{
+  font-size: 16px;
+  line-height: 30px;
+  }
+  .employeeasst h2{ color: #165b6b;
+  font-size: 29px;
+  line-height: 1.2em;
+  }
+  .subtitles{color: #000;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 24px;
+  }
+  .credic{
+  color: #de9898; font-size:20px; 
+  }
+  .employeeassis{background-color: #fae1e1;
+  padding:40px
+  }
+  .padd20{padding:20px 0px
+  }
+  .endtool{ padding:35px 0px !important
+  }
+  .b1{    border-style: solid;
+  border-width: 0 1px 1px 0;
+  border-color: #e1d8d8;
+  }
+  .b2{ border-style: solid;
+  border-width: 0 1px 1px 0;
+  border-color: #e1d8d8;
+  }
+  .b3 { border-style: solid;
+  border-width: 0 0px 1px 0;
+  border-color: #e1d8d8;
+  }
+  .b4{ border-style: solid;
+  border-width: 0 1px 0px 0;
+  border-color: #e1d8d8;
+  }
+  .b5{ border-style: solid;
+  border-width:0 1px 0px 1px;
+  border-color: #e1d8d8;
+  }
+
+
+/* Group Insurance */
+
+.listg{       box-shadow: 0px 17px 20px 1px rgba(0,0,0,.1);
+  margin: 10px;
+  text-align: center;
+  padding: 0 15px 10px;
+  height: 120px;    margin-top: 35px;
+  }
+  .listg img {
+  height: 64px;margin-bottom: 12px;
+  }
+  .listg h5 {
+  color: #252525;font-weight: 600;
+  }
+
+  /* testimonial */
+  .tvidwrap .tvimg{
+  height:315px;	width:100%;
+  }
+  .fheight{        margin-bottom: 20px;
+  }
+  .playimg{ display:none;
+  position: absolute;
+  top: 33%;
+  left: 41%;
+  height: 73px;
+  }
+  .tvidwrap:hover+ .playimg{ 
+    display:block !important;	
+  }
+  .ndisplay{ display:none;    margin-bottom: 45px;
+  }
+
 @media only screen and (max-width : 1400px) {
   #slider_6 {
     max-height: 500px;
