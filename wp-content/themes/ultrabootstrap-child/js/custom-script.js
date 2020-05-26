@@ -3,6 +3,15 @@
     
     $(document).ready(function() {
         
+        $(window).scroll(function(){
+            var scroll = $(window).scrollTop();
+            if(scroll > 300) {
+                $('.navbar').addClass('givecolor');
+            } else {
+                $('.navbar').removeClass('givecolor');
+            }
+        })
+
         // console.log("working");
         $('#takeawayE').on('click','li',function(e){
             $(this).toggleClass('active');

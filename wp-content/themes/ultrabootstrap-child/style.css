@@ -142,7 +142,7 @@ footer a,footer a:visited {
   background-image: url("https://new.ethika.co.in/wp-content/uploads/2020/05/Take-away-header-bg-1.png");
 }
 .agenda.register {
-  background-image: url("https://new.ethika.co.in/wp-content/uploads/2020/05/registration-header-bg.png");
+  background-image: url("https://www.ethikaworklife.com/wp-content/uploads/2020/05/happinessworkshop-header-bg-1.png");
   background-color: #4dabc5;
 }
 .agenda.totalhealth {
@@ -163,7 +163,9 @@ footer a,footer a:visited {
 }
 .agenda.register h1 {
   color: #fc0;
+  max-width: 200px;
 }
+
 .agenda.contactus h1 {
   color: #3a3f42;
 }
@@ -622,6 +624,9 @@ header .navbar-default {
 .home header .navbar-default {
 background: transparent;
 }
+.home header .navbar-default.givecolor {
+  background: #9fd38e;
+}
 
 .slider-c {
     position: absolute;
@@ -897,6 +902,110 @@ background: transparent;
   .ndisplay{ display:none;    margin-bottom: 45px;
   }
 
+
+  
+
+
+.Imagine-this h2, .what-you-learn h2, .who-are-we h2, .about-coach h2, .register-section h2{
+  font-weight: 600;
+  padding-bottom: 20px;
+  color: #165b6b;
+}
+
+.Imagine-this ul li, .what-you-learn ul li{
+  color: #7a7a7a;
+  padding: 5px 0;
+  list-style: none;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  line-height: normal;
+}
+.Imagine-this ul li:before , .what-you-learn ul li:before{
+  font-weight: 600;
+  content: '\003E';
+  color:yellowgreen;
+  font-size: 20px;  
+  position: absolute;
+  top: 6px;
+  left: -30px;
+}
+.Imagine-this{
+  margin:150px auto 60px;
+}
+.what-you-learn{
+  margin: 20px auto 60px;
+}
+.who-bg{
+  background-color:rgba(131, 216, 166, 0.5);
+  padding: 50px 0;
+}
+.who-are-we p, .about-coach p, .register-section p{
+  color: #7a7a7a;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  padding: 5px 0;
+}
+.coach-bg{
+  background-color: rgba(247, 206, 134, 0.5);
+  padding: 50px 0;
+}
+
+.register-section .register-strong-para{
+color: #53a4b1;
+font-size: 18px;
+}
+
+.register-section{
+  margin:60px auto 15px;
+}
+
+.register-now-section{
+  margin-bottom: 30px;
+}
+.happier-live p{
+  font-size: 24px;
+  font-weight: 400;
+  padding-bottom: 20px;
+  color: #165b6b;
+  line-height: 1.3em;
+}
+.happier-live strong{
+  font-size: 24px;
+  line-height: 1.3em;
+}
+.happier-live{
+  padding: 80px 0 40px;
+  background-color: #f7ce86;
+}
+
+.wpcf7 input[type="text"], .wpcf7 input[type="email"], .wpcf7 input[type="tel"]{
+  background-color:rgba(0,0,0,.06);
+  margin:0px 0px 20px;
+  border: 1px solid #e7e7e7;
+  height: 40px;
+}
+.wpcf7 textarea{
+  height: 136px;
+  background-color:rgba(0,0,0,.06);
+  margin:0px 0px 20px;
+  border: 1px solid #e7e7e7;
+}
+.wpcf7 label{
+  color: #7a7a7a;
+  font-weight: 400;
+  font-size: 16px;
+}
+.wpcf7-submit{
+  background-color: #5EB5AC;
+  color:#fff;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+
+
 @media only screen and (max-width : 1400px) {
   #slider_6 {
     max-height: 500px;
@@ -915,6 +1024,9 @@ background: transparent;
 }
 
 @media only screen and (max-width : 767px) {
+  .menu-main-container {
+    background: #9fd38e;
+  }
   .logo-tag img {
     height: 36px;
   }
